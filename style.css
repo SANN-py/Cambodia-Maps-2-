@@ -1,0 +1,167 @@
+
+*{
+          margin: 0 auto;
+          padding: 0;
+}
+
+body{
+            background-image: url("images/សៀមរាប.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-color: rgba(0,0,0,0.25);
+            background-blend-mode: overlay;
+            text-align: center;
+            align-content: center;
+        }
+
+.container{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          padding: 20px;
+}
+
+.image img{
+          border-radius:8px;
+          margin: 2rem 0;
+          height: 100%;
+          width: 100%;
+          
+          
+}
+
+.content{
+          background: #fff;
+          text-align: left;
+          margin: 0 auto;
+          padding: 20px;
+          border-radius: 8px;
+          
+}
+
+.center-container a{
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-family: 'english-font';
+          text-align: center;
+          text-wrap: nowrap;
+          padding: 0 1rem;
+          border-radius: 5px;
+          font-size: 1.5rem;
+}
+
+.center-container a:hover{
+       text-decoration: underline;
+       text-underline-offset: 8px;
+         
+}
+
+center{
+          margin: 0 auto;
+          height: 100%;
+}
+
+.center-flex{
+          display: flex;
+          margin: 1rem auto;
+          justify-content: center;
+          object-fit: cover;
+          
+}
+
+.center-container{
+          display: flex;
+          flex-direction: column;
+          object-fit: cover;
+          gap: 0.5rem;
+          background: #fff;
+          padding: 2rem 0;
+          border-radius: 8px;
+}
+.title-nav{
+          margin: 1rem;
+          background: #fff;
+          padding: 1rem;
+          width: 20%;
+          border-radius: 8px;
+          
+}
+.title-nav a{
+          text-decoration: none;
+          font-family: 'english-font';
+          color: #333;
+          font-weight: bold;
+          font-size: 20px;
+}
+
+.title-nav a:hover{
+          text-decoration: underline;
+          text-underline-offset: 8px;
+}
+
+.title-b a{
+          text-decoration: none;
+          color: #93e715;
+          background: #fff;
+          padding: 0.5rem;
+          border-radius: 8px;
+}
+.title-b a:hover{
+          text-decoration: none;
+          background: #5f5f5f;
+          color: #fff;
+}
+.bottom-icon:hover{
+          text-decoration: none;
+          background: none;
+}
+
+@font-face {
+          font-family: 'english-font';
+          src: url(Jost-Regular.woff);
+}
+
+.goto-bottom{
+          margin: 2rem auto;
+          padding: 1rem 0 ;
+          border: 1px solid #fff;
+          width: 20%;
+          background-color: #fff;
+          border-radius: 8px;
+}
+.goto-bottom a{
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          font-family: 'english-font';
+          font-weight: bold;
+}
+
+.goto-bottom a:hover{
+          text-decoration: underline;
+          text-underline-offset: 8px;
+}
+
+
+.top-title{
+          margin: 20px ;
+}
+
+.title-siemreap{
+          background: #fff;
+          padding: 0 2rem;
+          border-radius: 8px;
+
+}
+.content{
+          flex-basis: 50%;
+          width: 50%;
+}
+
+.content-desc{
+          font-size: 20px;
+          line-height: 3rem;
+}
