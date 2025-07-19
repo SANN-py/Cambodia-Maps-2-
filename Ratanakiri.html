@@ -1,27 +1,31 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>រតនៈគិរី</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-           body{
+           /* body{
             background-image: url("images/be.jpg");
+            background-color: rgba(0,0,0,0.7);
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
-        }
+        } */
         marquee{
             color: aliceblue;
-           
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <a name="top"></a>
-    <center>
+    <center class="top-title">
         <font style="font-family: Khmer OS Muol Light;" color="red" size="5px">
-            <i>
+            <i class="title-siemreap">
                 <u>
                     ការពិពណ៏នាពីខេត្តនីមួយៗរបស់ប្រទេសកម្ពជា
     
@@ -29,8 +33,9 @@
             </i>
         </font>
     </center>
-    <hr color="red" >
-    <center>
+   
+     <hr color="red" >
+    <center class="ca">
     
         <a href="index.html">Home</a> |
         <a href="BanteayMeanchey.html">BanteayMeanchey</a> |
@@ -60,10 +65,19 @@
         <a href="PhnomPenh.html">Phnom Penh0</a> |
         <a href="#bottom">Go to Bottom</a>
     </center>
-    <hr color="red">
+    <hr color="red" >
+
+    
+    
     <p align="justify">
-        <img src="images/រតនៈគិរី.jpg" align="left" width="600px" height="400px" border="8" hspace="30" vspace="20" >
-       <font style="font-family: Khmer OS Battambang ;">
+        <div class="container">
+            <div class="image">
+
+                <img src="images/រតនៈគិរី.jpg" align="left"  >
+            </div>
+            <div class="content">
+
+                 <font class="content-desc"style="font-family: Khmer OS Battambang ;">
         ត្តរតនគិរី គឺជាខេត្តមួយស្ថិតនៅភូមិភាគឦសាននៃប្រទេសកម្ពុជា។ ខេត្តរតនគិរីមានព្រំប្រទល់ខាងខាងកើតជាប់នឹងខេត្តកន្ទូម និងខេត្តយ៉ាឡាយ នៃសាធារណរដ្ឋសង្គមនិយមវៀតណាម ខាងលិចជាប់នឹងខេត្តស្ទឹងត្រែង 
         ខាងជើងជាប់នឹងខេត្តអាត្តពឺ នៃសាធារណរដ្ឋប្រជាធិបតេយ្យប្រជាមានិតឡាវ និងខាងត្បូងជាប់នឹងខេត្តមណ្ឌលគិរី ហើយមានចម្ងាយ ៥៨៨គីឡូម៉ែត្រ ពីរាជធានីភ្នំពេញ ។ ខេត្តរតនគិរីជាខេត្តមួយដែលមានលក្ខណៈពិសេសជាងគេក្នុងចំណោមខេត្តដែលនៅភូមិភាគឦសានប្រទេសកម្ពុជា ដោយខេត្តមានតំបន់ទេសចរណ៍ធម្មជាតិជាច្រើនអនេក និងទេសចរណ៍វប្បធម៌ជនជាតិភាគតិចផងដែរ។
         ខេត្តរតនគិរី មានរស់នៅប្រហែលយុទ្ធសម័យលោហៈមកម្ល៉េះ ហើយការជួញដូររវាងតំបន់ខ្ពង់រាប និងទីប្រជុំជនតាមឈូងសមុទ្រថៃមានកាលបរិច្ឆេទយ៉ាងហោចណាស់សតវត្សទី៤ នៃគ.ស។ ចាប់ពីសតវត្សទី១៣ រហូតដល់សតវត្សទី១៩ 
@@ -83,11 +97,22 @@
         ហើយការទម្លាក់គ្រាប់បែកក្នុងអំឡុងសង្គ្រាមវៀតណាមបានបំផ្លិចបំផ្លាញតំបន់នេះ។ រដ្ឋាភិបាលមូលដ្ឋានមានលក្ខណៈខ្សោយ។ សូចនាករសុខភាពក្នុងខេត្តរតនគិរីក្រីក្រខ្លាំង អាយុកាលជាមធ្យមរបស់បុរសគឺ ៣៩ឆ្នាំហើយស្ត្រីគឺ ៤៣ឆ្នាំ។ កម្រិតនៃការអប់រំក៏មានកម្រិតទាបដែរ 
         ដោយមានចំនួនមិនដល់ពាក់កណ្តាលនៃប្រជាជនដែលមិនចេះអក្សរ។
        </font>
+
+      
+
+      
+        
+
+
+                     
+            </div>
+
+        </div>
     </p>
-    
-    <a name="bottom">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#top" >Go to Top</a>
-    <marquee  bgcolor="red"   >www.phy rathin.com | 069620332</marquee>
- 
+    <!-- <a name="bottom"class="bottom-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a> -->
+    <div class="title-nav title-b" style="text-align: center;background: none;">
+        <a href="#top" > -> Go to Top</a>
+    </div>
+    <marquee  bgcolor="red" align="bottom" >www.phy rathin.com (Update by Kimsann !!) | 069620332</marquee>
 </body>
 </html>
