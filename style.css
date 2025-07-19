@@ -100,14 +100,14 @@ center{
 }
 
 .ca{
-       /* background-color: #5f5f5f; */
+       background-color: #5f5f5f;
 }
 
 center a{
        font-size: 1.5rem;
        text-decoration: none;
        font-family: 'english-font';
-       color: #333;
+       color: black;
        gap: 1.5rem;
        /* font-weight: bold; */
       
